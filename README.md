@@ -1,3 +1,15 @@
-# ui_IoTCourse_project <br />
-In this project we are making a web server on a WiFi module and connect it to the internet.<br />
-The description of the project is explained in "IoT-FinalProject.pdf".
+# ESP8266 IoT LED Control
+
+This project was developed as part of an IoT course during my Bachelor’s degree.
+
+An ESP8266 connects to the internet and controls an onboard LED based on commands received from:
+- A Django-based web application
+- A Telegram bot
+
+The ESP8266 communicates with the backend over HTTP and toggles the LED ON/OFF accordingly.
+
+## Technologies
+- ESP8266 (Arduino/C)
+- Django (Python)
+- Telegram Bot API
+- HTTP communication
